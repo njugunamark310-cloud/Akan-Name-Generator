@@ -22,7 +22,7 @@ const maleNames =[
 
 //Female Akan names
 const femaleNames =[
-     "Akosua",
+    "Akosua",
     "Adwoa",
     "Abenaa",
     "Akua",
@@ -30,6 +30,7 @@ const femaleNames =[
     "Afua",
     "Ama"
 ];
+// formula
 function calculateDayOfWeek(day, month, year) {
 
     const CC = Math.floor(year / 100);
@@ -83,7 +84,7 @@ form.addEventListener("submit", function (event) {
     if (monthNumber < 1 || monthNumber > 12) {
     // Now calculate the day of the week
     }
-    
+
     const dayIndex = calculateDayOfWeek(
     dayNumber,
     monthNumber,
@@ -93,7 +94,7 @@ form.addEventListener("submit", function (event) {
 
 let akanName;
 
-if (gender.value === "Male") {
+if (gender.value === "male") {
     akanName = maleNames[dayIndex];
 } else {
     akanName = femaleNames[dayIndex];
