@@ -71,6 +71,7 @@ form.addEventListener("submit", function (event) {
         alert("Please select your birth date and gender.");
         return;
     }
+    
     // split date into year, month and day
     const [year, month, day] =birthDate.split("-");
 
@@ -79,8 +80,10 @@ form.addEventListener("submit", function (event) {
     const monthNumber = Number(month);
     const dayNumber = Number(day);
     
+    if (monthNumber < 1 || monthNumber > 12) {
     // Now calculate the day of the week
-
+    }
+    
     const dayIndex = calculateDayOfWeek(
     dayNumber,
     monthNumber,
@@ -96,6 +99,12 @@ if (gender.value === "Male") {
     akanName = femaleNames[dayIndex];
 }
 console.log(akanName);
+//Update on webpage
+const output = document.getElementById("output");
+output.innerHTML = `
+    You were born on <strong>${days[dayIndex]}</strong>.<br>
+    Your Akan name is <strong>${akanName}</strong>.
+`;
 
     //Test the values
     console.log("year:", yearNumber);
