@@ -1,0 +1,140 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fefeff, #8c8f96);
+    color: #333;
+    min-height: 100vh;
+}
+/* HEADER */
+header {
+    text-align: center;
+    color: rgb(14, 13, 13);
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/*MAIN */
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+/* CARD STYLE */
+.generator,
+#result {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+    margin-bottom: 25px;
+}
+
+/* FORM */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.gender-options label {
+    display: flex;
+    gap: 20px;
+}
+
+/*BUTTONS */
+.buttons {
+     display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+button {
+     flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+button[type="submit"] {
+    background: #2563eb;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #1d4ed8;
+}
+
+button[type="reset"] {
+    background: #f70d0d;
+}
+
+button[type="reset"]:hover {
+    background: #e9e9e7;
+}
+
+/* RESULT */
+#result {
+    text-align: center;
+}
+
+#result h2 {
+    margin-bottom: 15px;
+}
+
+#output {
+    color: #2563eb;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*FOOTER */
+footer {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .gender-options{
+        flex-direction:column;
+        gap:10px;
+    }
+
+}
