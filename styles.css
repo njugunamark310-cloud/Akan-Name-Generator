@@ -16,6 +16,7 @@ header {
     text-align: center;
     color: rgb(14, 13, 13);
     padding: 40px 20px;
+    
 }
 
 header h1 {
@@ -27,6 +28,8 @@ header p {
     max-width: 700px;
     margin: auto;
     line-height: 1.7;
+    color: #232424;
+    font-size: 1.2rem;
 }
 
 /*MAIN */
