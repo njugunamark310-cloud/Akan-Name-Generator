@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+
+    <header>
+        <h1>Akan Name Generator</h1>
+        <p>
+            Discover your traditional Akan name based on the day you were born.
+            Enter your birth date and select your gender to find your Akan name.
+        </p>
+    </header>
+<main>
+   
+    <section class="generator">
+        <form id="akanform">
+
+            <div class="form-group">
+                <label for="birthdate">Date of birth</label>
+            <input
+               type="date"
+               id="birthDate"
+               name="birthDate"
+               required
+            >
+        </div>
+
+        <div class="form-group">
+             <label>Gender</label>
+
+              <div class="gender-options">
+
+                <label>
+                <input
+                   type="radio"
+                   name="gender"
+                   value="male"
+            >
+         Male
+            </label>
+
+            <label>
+            <input
+               type="radio"
+               name="gender"
+               value="female"
+            >
+        Female
+     </label>
+
+  </div>
+ </div> 
+
+    <div class="buttons">
+      <button type="submit">
+          Generate Akan Name
+      </button>
+
+      <button type="reset">
+          Reset
+      </button>
+    </div>
+ </form>
+</section>
+
+   <section id="result">
+      <h2>Your result </h2>
+    <p id="output">
+       Your Akan name will appear here.
+    </p>
+   </section>
+           
+</main>
+
+
+<footer>
+    <p>
+       &copy; 2026 Akan Name Generator | Built by Mark Njuguna   
+    </p>
+
+
+</footer>
+
+    
+</body>
+</html>
