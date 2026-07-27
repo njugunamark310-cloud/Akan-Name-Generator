@@ -121,7 +121,24 @@ button[type="reset"]:hover {
 #result h2 {
     margin-bottom: 15px;
 }
+input:focus,
+button:focus {
+    outline: 3px solid #2563eb;
+    outline-offset: 2px;
+}
 
+input:focus {
+    border-color: #2563eb;
+}
+input:focus,
+button:focus {
+    outline: 3px solid #2563eb;
+    outline-offset: 2px;
+}
+
+input:focus {
+    border-color: #2563eb;
+}
 #output{
     margin-top:25px;
     padding:20px;
