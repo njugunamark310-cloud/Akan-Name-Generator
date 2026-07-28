@@ -10,6 +10,7 @@ Akan Name Generator is a web application that calculates the day of the week a u
 The application validates user input, determines the correct day of the week, and displays the corresponding Akan name in a clean and responsive interface.
 
 ## Live Site
+https://njugunamark310-cloud.github.io/Akan-Name-Generator/
 
 
 
@@ -50,20 +51,19 @@ cd Akan-Name-Generator
 
 code .
 
-4. Open "Index.html in your preferred web browser.
+4. Open "Index.html" in your preferred web browser.
 
 
 ## Site Behaviour
-| User enters a valid birth date and selects Male | 2005-10-24, Male | Displays Monday and Akan name "Kwadwo" |- Used as a personal birthdate example
+- User enters a valid birth date and selects Male | 2005-10-24, Male | Displays Monday and Akan name "Kwadwo" - Used as a personal birthdate example
 
-| User enters a valid birth date and selects Female | 2005-10-24, Female | Displays Monday and Akan name "Adwoa" |
+- User enters a valid birth date and selects Female | 2005-10-24, Female | Displays Monday and Akan name "Adwoa" |
 
-| User submits without entering a birth date | No date | Alert requesting the user to enter a birth date |
-| User submits without selecting a gender | No gender | Alert requesting the user to select a gender |
-| User enters an invalid month or day | Invalid date | Alert indicating invalid input |
-| User clicks the Reset button | Reset | Form fields and output are cleared |
+- User submits without entering a birth date | No date | Alert requesting the user to enter a birth date |
+- User submits without selecting a gender | No gender | Alert requesting the user to select a gender |
+- User enters an invalid month or day | Invalid date | Alert indicating invalid input |
+- User clicks the Reset button | Reset | Form fields and output are cleared |
 
----
 
 ## Project Structure
 
