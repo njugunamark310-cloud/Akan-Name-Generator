@@ -55,7 +55,7 @@ code .
 
 
 ## Site Behaviour
-- User enters a valid birth date and selects Male | 2005-10-24, Male | Displays Monday and Akan name "Kwadwo" - Used as a personal birthdate example
+- User enters a valid birth date and selects Male | 2005-10-24, Male | Displays Monday and Akan name "Kwadwo" - Used  a personal birthdate example
 
 - User enters a valid birth date and selects Female | 2005-10-24, Female | Displays Monday and Akan name "Adwoa" |
 
