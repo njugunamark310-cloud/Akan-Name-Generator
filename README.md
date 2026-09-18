@@ -20,7 +20,7 @@ https://njugunamark310-cloud.github.io/Akan-Name-Generator/
 https://github.com/njugunamark310-cloud/Akan-Name-Generator
 
 ## Features
-
+- updated birth date
 - Enter your birth date.
 - Select your gender.
 - Validates user input.
